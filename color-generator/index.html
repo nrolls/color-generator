@@ -1,0 +1,32 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>Color Picker</h1>
+            <div class="container">
+            <div id="colorOptions">
+                <input type="color" id="colorSeed" name="Color">
+                <form  id="form1">
+                    <select id="formOptions">
+                        <option>Monochrome</option>
+                        <option>Monochrome-dark</option>
+                        <option>Monochrome-light</option>
+                        <option>Analogic</option>
+                        <option>Complement</option>
+                        <option>Analogic-complement</option>
+                        <option>Triad</option>
+                    </select>
+                    <input type="submit" value="Get color scheme">
+                </form>
+            </div>
+                <div id="colors-display">
+                    <!-- Set by colorHtml in js -->
+                </div>
+                <div id="colors-hex">
+                    <!-- Set by colorHex in js -->
+                </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

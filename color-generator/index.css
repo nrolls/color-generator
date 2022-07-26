@@ -1,0 +1,41 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: darkslategrey;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+#colorOptions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1em;
+    border-bottom: 2px solid black;
+}
+
+.container {
+    margin: auto;
+    width: 90%;
+    height: 800px;
+    background: #ffffff;
+}
+
+#colors-display {
+    display: flex;
+    width: 100%;
+    height: 85%;
+    border-bottom: 2px solid black;
+}
+
+#colors-hex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.item {
+    flex-grow: 4;
+}
